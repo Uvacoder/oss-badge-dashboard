@@ -1,0 +1,38 @@
+{
+  "projects": [
+    "EmaSuriano/gatsby-starter-mate",
+    "EmaSuriano/gatsby-theme-mate",
+    "EmaSuriano/gatsby-starter-event-calendar",
+    "EmaSuriano/react-hotkey-tooltip",
+    "EmaSuriano/react-scroll-section",
+    "EmaSuriano/oss-badge-dashboard",
+    "EmaSuriano/gatsby-theme-jsonresume"
+  ],
+  "columns": [
+    {
+      "name": "Build",
+      "badge": "https://badgen.net/github/checks/{REPO_URL}/master?label=",
+      "url": "/actions"
+    },
+    {
+      "name": "Issues",
+      "badge": "https://badgen.net/github/open-issues/{REPO_URL}?label=",
+      "url": "/issues"
+    },
+    {
+      "name": "Prs",
+      "badge": "  https://badgen.net/github/open-prs/{REPO_URL}?label=",
+      "url": "/pulls"
+    },
+    {
+      "name": "Last Commit",
+      "badge": "https://badgen.net/github/last-commit/{REPO_URL}?label=",
+      "url": "/commits"
+    },
+    {
+      "name": "Vulnerabilities",
+      "badge": "https://badgen.net/snyk/{REPO_URL}/master?label=",
+      "url": "/security"
+    }
+  ]
+}

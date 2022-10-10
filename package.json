@@ -1,0 +1,34 @@
+{
+  "name": "oss-badge-dashboard",
+  "version": "1.0.0",
+  "description": "Github Dashboard with badge using badgen.net",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node script.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EmaSuriano/oss-badge-dashboard.git"
+  },
+  "keywords": [
+    "dashboard",
+    "oss",
+    "github",
+    "badge",
+    "badgen.net"
+  ],
+  "author": "EmaSuriano <emanuel.suriano@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EmaSuriano/oss-badge-dashboard/issues"
+  },
+  "homepage": "https://github.com/EmaSuriano/oss-badge-dashboard#readme",
+  "dependencies": {
+    "ts-node": "^10.8.0",
+    "typescript": "^4.6.3",
+    "yup": "^0.32.11"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.22"
+  }
+}
